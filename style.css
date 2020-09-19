@@ -5,10 +5,60 @@ html {
     font-size: 18px;
     font-family: "Helvetica Neue", serif;
     line-height: 1.5em;
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    text-align: start;
+}
+
+header img {
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h1 {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+header nav {
+    margin-right: 30px;
+    display: block;
+    text-align: end;
+}
+
+footer {
+    width: 100%;
+    background-color: gray;
 }
 
 ul {
-    list-style: none;
+    list-style: armenian;
+    color: white;
     margin: 0;
     padding: 0;
+}
+
+header li {
+    display: inline;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
