@@ -5,16 +5,13 @@ html {
     font-size: 18px;
     font-family: "Helvetica Neue", serif;
     line-height: 1.5em;
-    display: flex;
-    min-height: 100px;
-    flex-direction: column;
 }
 
 header {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     background-color: black;
 }
 
@@ -41,11 +38,6 @@ header nav {
     text-align: end;
 }
 
-footer {
-    width: 100%;
-    background-color: gray;
-}
-
 ul {
     list-style: armenian;
     color: white;
@@ -61,4 +53,48 @@ header li {
 header a {
     text-decoration: none;
     color: white;
+}
+
+.description, 
+.relationship {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    background-color: rgb(223, 213, 213);
+}
+
+.description img {
+    margin: 40px 40px;
+}
+
+.description div {
+    margin: 40px 40px;
+}
+
+.description p {
+    display: block;
+}
+
+.relationship {
+  background-color: white;
+}
+
+.relationship img {
+    margin: 40px 40px;
+}
+
+.relationship div {
+    margin: 40px 40px;
+}
+
+footer {
+    height: 60px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer p {
+    display: inline-block;
 }
