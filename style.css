@@ -62,7 +62,8 @@ header a {
     background-color: rgb(223, 213, 213);
 }
 
-h2 {
+h2,
+footer p {
     font-weight: bold;
 }
 
@@ -75,7 +76,9 @@ h2 {
     flex-direction: row;
 }
 
-.description img {
+.description img,
+.relationship div,
+.relationship img {
     margin: 20px 40px;
 }
 
@@ -88,14 +91,6 @@ h2 {
     background-color: white;
 }
 
-.relationship img {
-    margin: 20px 40px;
-}
-
-.relationship div {
-    margin: 20px 40px;
-}
-
 footer {
     height: 80px;
     background-color: gray;
@@ -105,5 +100,5 @@ footer {
 }
 
 footer p {
-    display: inline-block;
+    line-height: 80px;
 }
